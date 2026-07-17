@@ -1,0 +1,28 @@
+.candidate-card{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.candidate-card h2{
+    text-align:center;
+    color:#4338ca;
+    margin-bottom:25px;
+}
+
+.info-row{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:15px;
+    border-bottom:1px solid #eee;
+    font-size:18px;
+}
+
+.icon{
+    color:#4338ca;
+    font-size:22px;
+}

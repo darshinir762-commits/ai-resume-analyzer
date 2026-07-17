@@ -1,0 +1,40 @@
+.suggestion-card{
+    width:85%;
+    max-width:1100px;
+    margin:30px auto;
+    background:#fff;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.suggestion-card h2{
+    text-align:center;
+    color:#4338ca;
+    margin-bottom:20px;
+}
+
+.suggestion-list{
+    list-style:none;
+    padding:0;
+}
+
+.suggestion-list li{
+    padding:12px;
+    margin-bottom:12px;
+    background:#eef2ff;
+    border-left:5px solid #4338ca;
+    border-radius:8px;
+    font-size:17px;
+    font-weight:500;
+}
+
+.empty-text{
+    text-align:center;
+    color:gray;
+    font-size:16px;
+}
+
+.icon{
+    color:#f59e0b;
+}

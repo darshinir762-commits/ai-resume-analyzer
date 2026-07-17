@@ -1,0 +1,40 @@
+.dashboard{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    text-align:center;
+}
+
+.dashboard h1{
+    color:#4338ca;
+    margin-bottom:35px;
+}
+
+.dashboard-cards{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.dashboard-card{
+    width:280px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-8px);
+}
+
+.dashboard-card h2{
+    color:#4338ca;
+    margin-bottom:10px;
+}
+
+.dashboard-card p{
+    color:#555;
+}
