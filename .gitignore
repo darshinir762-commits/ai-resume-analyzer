@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Environment variabless
+.env
+backend/.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Uploaded resumes
+backend/uploads/
+
+# SQLite database
+backend/users.db
+
+# Virtual environment
+backend/env/
+venv/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+dist/
+build/
